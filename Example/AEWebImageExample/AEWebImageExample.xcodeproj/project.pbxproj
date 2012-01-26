@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4D323A514D1965700B4D132 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D323A414D1965700B4D132 /* UIKit.framework */; };
+		C4D323A714D1965700B4D132 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D323A614D1965700B4D132 /* Foundation.framework */; };
+		C4D323A914D1965700B4D132 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D323A814D1965700B4D132 /* CoreGraphics.framework */; };
+		C4D323AF14D1965700B4D132 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4D323AD14D1965700B4D132 /* InfoPlist.strings */; };
+		C4D323B114D1965700B4D132 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D323B014D1965700B4D132 /* main.m */; };
+		C4D323B514D1965700B4D132 /* AEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D323B414D1965700B4D132 /* AEAppDelegate.m */; };
+		C4D323B814D1965700B4D132 /* AEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D323B714D1965700B4D132 /* AEViewController.m */; };
+		C4D323BB14D1965700B4D132 /* AEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4D323B914D1965700B4D132 /* AEViewController.xib */; };
+		C4D323C414D1997200B4D132 /* UIImageView+AEWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D323C314D1997200B4D132 /* UIImageView+AEWebImage.m */; };
+		C4D323D214D19CE600B4D132 /* AEExpect.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D323C714D19CE600B4D132 /* AEExpect.m */; };
+		C4D323D414D19CE600B4D132 /* AEURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D323CB14D19CE600B4D132 /* AEURLConnection.m */; };
+		C4D323D514D19CE600B4D132 /* AEURLRequestFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D323CD14D19CE600B4D132 /* AEURLRequestFactory.m */; };
+		C4D323D614D19CE600B4D132 /* AEURLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D323CF14D19CE600B4D132 /* AEURLRequestOperation.m */; };
+		C4D323D714D19CE600B4D132 /* AEURLResponseProcessors.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D323D114D19CE600B4D132 /* AEURLResponseProcessors.m */; };
+		C4D323D914D1A0A500B4D132 /* AESampleImages.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4D323D814D1A0A500B4D132 /* AESampleImages.plist */; };
+		C4D323DB14D1A2DC00B4D132 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = C4D323DA14D1A2DC00B4D132 /* placeholder.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C4D323A014D1965700B4D132 /* AEWebImageExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AEWebImageExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4D323A414D1965700B4D132 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C4D323A614D1965700B4D132 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4D323A814D1965700B4D132 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C4D323AC14D1965700B4D132 /* AEWebImageExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AEWebImageExample-Info.plist"; sourceTree = "<group>"; };
+		C4D323AE14D1965700B4D132 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4D323B014D1965700B4D132 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4D323B214D1965700B4D132 /* AEWebImageExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AEWebImageExample-Prefix.pch"; sourceTree = "<group>"; };
+		C4D323B314D1965700B4D132 /* AEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AEAppDelegate.h; sourceTree = "<group>"; };
+		C4D323B414D1965700B4D132 /* AEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AEAppDelegate.m; sourceTree = "<group>"; };
+		C4D323B614D1965700B4D132 /* AEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AEViewController.h; sourceTree = "<group>"; };
+		C4D323B714D1965700B4D132 /* AEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AEViewController.m; sourceTree = "<group>"; };
+		C4D323BA14D1965700B4D132 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AEViewController.xib; sourceTree = "<group>"; };
+		C4D323C214D1997200B4D132 /* UIImageView+AEWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AEWebImage.h"; sourceTree = "<group>"; };
+		C4D323C314D1997200B4D132 /* UIImageView+AEWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AEWebImage.m"; sourceTree = "<group>"; };
+		C4D323C614D19CE600B4D132 /* AEExpect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEExpect.h; sourceTree = "<group>"; };
+		C4D323C714D19CE600B4D132 /* AEExpect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEExpect.m; sourceTree = "<group>"; };
+		C4D323CA14D19CE600B4D132 /* AEURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEURLConnection.h; sourceTree = "<group>"; };
+		C4D323CB14D19CE600B4D132 /* AEURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEURLConnection.m; sourceTree = "<group>"; };
+		C4D323CC14D19CE600B4D132 /* AEURLRequestFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEURLRequestFactory.h; sourceTree = "<group>"; };
+		C4D323CD14D19CE600B4D132 /* AEURLRequestFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEURLRequestFactory.m; sourceTree = "<group>"; };
+		C4D323CE14D19CE600B4D132 /* AEURLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEURLRequestOperation.h; sourceTree = "<group>"; };
+		C4D323CF14D19CE600B4D132 /* AEURLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEURLRequestOperation.m; sourceTree = "<group>"; };
+		C4D323D014D19CE600B4D132 /* AEURLResponseProcessors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEURLResponseProcessors.h; sourceTree = "<group>"; };
+		C4D323D114D19CE600B4D132 /* AEURLResponseProcessors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEURLResponseProcessors.m; sourceTree = "<group>"; };
+		C4D323D814D1A0A500B4D132 /* AESampleImages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AESampleImages.plist; sourceTree = "<group>"; };
+		C4D323DA14D1A2DC00B4D132 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4D3239D14D1965700B4D132 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D323A514D1965700B4D132 /* UIKit.framework in Frameworks */,
+				C4D323A714D1965700B4D132 /* Foundation.framework in Frameworks */,
+				C4D323A914D1965700B4D132 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4D3239514D1965600B4D132 = {
+			isa = PBXGroup;
+			children = (
+				C4D323C514D19CE600B4D132 /* AEURLConnection */,
+				C4D323C114D1990E00B4D132 /* AEWebImage */,
+				C4D323AA14D1965700B4D132 /* AEWebImageExample */,
+				C4D323A314D1965700B4D132 /* Frameworks */,
+				C4D323A114D1965700B4D132 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4D323A114D1965700B4D132 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4D323A014D1965700B4D132 /* AEWebImageExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4D323A314D1965700B4D132 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4D323A414D1965700B4D132 /* UIKit.framework */,
+				C4D323A614D1965700B4D132 /* Foundation.framework */,
+				C4D323A814D1965700B4D132 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4D323AA14D1965700B4D132 /* AEWebImageExample */ = {
+			isa = PBXGroup;
+			children = (
+				C4D323B314D1965700B4D132 /* AEAppDelegate.h */,
+				C4D323B414D1965700B4D132 /* AEAppDelegate.m */,
+				C4D323B614D1965700B4D132 /* AEViewController.h */,
+				C4D323B714D1965700B4D132 /* AEViewController.m */,
+				C4D323B914D1965700B4D132 /* AEViewController.xib */,
+				C4D323AB14D1965700B4D132 /* Supporting Files */,
+			);
+			path = AEWebImageExample;
+			sourceTree = "<group>";
+		};
+		C4D323AB14D1965700B4D132 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4D323DA14D1A2DC00B4D132 /* placeholder.png */,
+				C4D323AC14D1965700B4D132 /* AEWebImageExample-Info.plist */,
+				C4D323AD14D1965700B4D132 /* InfoPlist.strings */,
+				C4D323B014D1965700B4D132 /* main.m */,
+				C4D323B214D1965700B4D132 /* AEWebImageExample-Prefix.pch */,
+				C4D323D814D1A0A500B4D132 /* AESampleImages.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4D323C114D1990E00B4D132 /* AEWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				C4D323C214D1997200B4D132 /* UIImageView+AEWebImage.h */,
+				C4D323C314D1997200B4D132 /* UIImageView+AEWebImage.m */,
+			);
+			name = AEWebImage;
+			path = ../../AEWebImage;
+			sourceTree = "<group>";
+		};
+		C4D323C514D19CE600B4D132 /* AEURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				C4D323C614D19CE600B4D132 /* AEExpect.h */,
+				C4D323C714D19CE600B4D132 /* AEExpect.m */,
+				C4D323CA14D19CE600B4D132 /* AEURLConnection.h */,
+				C4D323CB14D19CE600B4D132 /* AEURLConnection.m */,
+				C4D323CC14D19CE600B4D132 /* AEURLRequestFactory.h */,
+				C4D323CD14D19CE600B4D132 /* AEURLRequestFactory.m */,
+				C4D323CE14D19CE600B4D132 /* AEURLRequestOperation.h */,
+				C4D323CF14D19CE600B4D132 /* AEURLRequestOperation.m */,
+				C4D323D014D19CE600B4D132 /* AEURLResponseProcessors.h */,
+				C4D323D114D19CE600B4D132 /* AEURLResponseProcessors.m */,
+			);
+			name = AEURLConnection;
+			path = ../../AEURLConnection/AEURLConnection;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4D3239F14D1965700B4D132 /* AEWebImageExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4D323BE14D1965700B4D132 /* Build configuration list for PBXNativeTarget "AEWebImageExample" */;
+			buildPhases = (
+				C4D3239C14D1965700B4D132 /* Sources */,
+				C4D3239D14D1965700B4D132 /* Frameworks */,
+				C4D3239E14D1965700B4D132 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AEWebImageExample;
+			productName = AEWebImageExample;
+			productReference = C4D323A014D1965700B4D132 /* AEWebImageExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4D3239714D1965600B4D132 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = cosmicsoft;
+			};
+			buildConfigurationList = C4D3239A14D1965600B4D132 /* Build configuration list for PBXProject "AEWebImageExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C4D3239514D1965600B4D132;
+			productRefGroup = C4D323A114D1965700B4D132 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4D3239F14D1965700B4D132 /* AEWebImageExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4D3239E14D1965700B4D132 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D323AF14D1965700B4D132 /* InfoPlist.strings in Resources */,
+				C4D323BB14D1965700B4D132 /* AEViewController.xib in Resources */,
+				C4D323D914D1A0A500B4D132 /* AESampleImages.plist in Resources */,
+				C4D323DB14D1A2DC00B4D132 /* placeholder.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4D3239C14D1965700B4D132 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D323B114D1965700B4D132 /* main.m in Sources */,
+				C4D323B514D1965700B4D132 /* AEAppDelegate.m in Sources */,
+				C4D323B814D1965700B4D132 /* AEViewController.m in Sources */,
+				C4D323C414D1997200B4D132 /* UIImageView+AEWebImage.m in Sources */,
+				C4D323D214D19CE600B4D132 /* AEExpect.m in Sources */,
+				C4D323D414D19CE600B4D132 /* AEURLConnection.m in Sources */,
+				C4D323D514D19CE600B4D132 /* AEURLRequestFactory.m in Sources */,
+				C4D323D614D19CE600B4D132 /* AEURLRequestOperation.m in Sources */,
+				C4D323D714D19CE600B4D132 /* AEURLResponseProcessors.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4D323AD14D1965700B4D132 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4D323AE14D1965700B4D132 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C4D323B914D1965700B4D132 /* AEViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4D323BA14D1965700B4D132 /* en */,
+			);
+			name = AEViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4D323BC14D1965700B4D132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C4D323BD14D1965700B4D132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4D323BF14D1965700B4D132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AEWebImageExample/AEWebImageExample-Prefix.pch";
+				INFOPLIST_FILE = "AEWebImageExample/AEWebImageExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C4D323C014D1965700B4D132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AEWebImageExample/AEWebImageExample-Prefix.pch";
+				INFOPLIST_FILE = "AEWebImageExample/AEWebImageExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4D3239A14D1965600B4D132 /* Build configuration list for PBXProject "AEWebImageExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4D323BC14D1965700B4D132 /* Debug */,
+				C4D323BD14D1965700B4D132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4D323BE14D1965700B4D132 /* Build configuration list for PBXNativeTarget "AEWebImageExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4D323BF14D1965700B4D132 /* Debug */,
+				C4D323C014D1965700B4D132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4D3239714D1965600B4D132 /* Project object */;
+}

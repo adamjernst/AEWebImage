@@ -1,0 +1,3 @@
+[submodule "AEURLConnection"]
+	path = AEURLConnection
+	url = git://github.com/adamjernst/AEURLConnection.git
